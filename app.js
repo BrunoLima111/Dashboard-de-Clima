@@ -1,4 +1,4 @@
-const API_KEY = '423ba9bb5dfdf5e61e2352a0a60337ee';
+const API_KEY = 'API_KEY_DO_OPENWEATHERMAP';
 
 const cityInput = document.getElementById('city-input');
 const searchBtn = document.getElementById('search-btn');
