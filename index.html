@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard de Clima</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="search-box">
+      <input type="text" id="city-input" placeholder="Digite o nome da cidade...">
+      <button id="search-btn">Buscar</button>
+      <button id="geo-btn">Usar minha localização (dificilmente será a correta)</button>
+    </div>
+
+    <div id="weather-info" class="hidden">
+      <h2 id="city-name">--</h2>
+      <p id="temperature">--°C</p>
+      <p id="description">--</p>
+      <div class="details">
+        <span>Umidade: <strong id="humidity">--%</strong></span>
+        <span>Vento: <strong id="wind">-- km/h</strong></span>
+      </div>
+    </div>
+
+    <p id="error-message" class="error"></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
