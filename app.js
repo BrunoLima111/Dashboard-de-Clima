@@ -6,7 +6,7 @@ const geoBtn = document.getElementById('geo-btn');
 
 const weatherInfo = document.getElementById('weather-info');
 const cityName = document.getElementById('city-name');
-const weatherIcon = document.getElementById('weather-icon');
+//const weatherIcon = document.getElementById('weather-icon');
 const temperature = document.getElementById('temperature');
 const description = document.getElementById('description');
 const humidity = document.getElementById('humidity');
